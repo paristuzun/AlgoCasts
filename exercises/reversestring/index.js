@@ -14,4 +14,11 @@ function reverse(str) {
   return joinStrBack;
 }
 
+// function reverse(str) {
+//   return str
+//     .split('')
+//     .reverse()
+//     .join('');
+// }
+
 module.exports = reverse;
